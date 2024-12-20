@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.card-one, .card-two {
+  border-radius: 12px;
+  background-image: url('/img/slideShow5.b502aa01.jpg');
+  background-position: center center;
+}
+.card-two {
+  background-image: url('/img/slideShow6.03103579.jpg');
+}
